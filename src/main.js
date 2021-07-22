@@ -5,6 +5,9 @@ import router from './router'
 import store from './store'
 import './plugins/vant.js'
 
+import '@/assets/scss/base.scss'
+import '@/assets/scss/style.scss'
+
 Vue.config.productionTip = false
 
 new Vue({
